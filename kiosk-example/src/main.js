@@ -5,7 +5,8 @@ function setup() {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
     dialNumber1: 'mebert@cisco.com',
-    dialNumber2: 'stelehma@cisco.com',
+    dialNumber2: 'Ananthasubramaniam.Sivakumar@in.bosch.com',
+    dialNumber3: 'ana.suopelto@br.bosch.com',    
     services: [],
 
     init() {
