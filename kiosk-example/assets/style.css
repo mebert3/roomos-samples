@@ -120,12 +120,12 @@ button {
 
 .avatar {
   
-  border-radius: 50%;
+  border-radius: 40%;
   height: 200px;
   width: 200px;
   margin: 1em 0;
-  background-position: center center;
-  background-size: cover;
+  align-items: center;
+
 }
 
 .Clinic .avatar { background-image: url('./images/Avatar1.png'); }
