@@ -23,7 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: CiscoSansThin, arial;
-  background-image: url('./images/ciscologo.png');
+  background-image: url('./images/Bosch-logo.png');
   background-position: 5% 5%;
   background-repeat: no-repeat;
   background-size: 120px auto;
@@ -102,7 +102,7 @@ button {
   background-size: cover;
 }
 
-.clinic .avatar { background-image: url('./images/avatar1.png'); }
+.Clinic .avatar { background-image: url('./images/avatar1.png'); }
 .Advice .avatar { background-image: url('./images/avatar2.jpg'); }
 .Credit .avatar { background-image: url('./images/ahauge.png'); }
 
