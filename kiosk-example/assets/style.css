@@ -102,9 +102,9 @@ button {
   background-size: cover;
 }
 
-.Clinic .avatar { background-image: url('./images/avatar1.png'); }
-.Advice .avatar { background-image: url('./images/avatar2.jpg'); }
-.Credit .avatar { background-image: url('./images/ahauge.png'); }
+.Clinic .avatar { background-image: url('./images/Avatar1.png'); }
+.Advice .avatar { background-image: url('./images/Avatar2.jpg'); }
+.Credit .avatar { background-image: url('./images/Avatar3.png'); }
 
 .back {
   position: absolute;
