@@ -135,12 +135,14 @@ button {
   position: absolute;
   top: 60%;
   left: 30%;
-  background-image: url('./images/Avatar1.png'); }
+  background-image: url('./images/Avatar1.png'); 
+  label: "Clinic"}
 .IT .avatar { 
   position: absolute;
   top: 60%;
   left: 50%;
-  background-image: url('./images/Avatar2.png'); }
+  background-image: url('./images/Avatar2.png'); 
+  name: "IT Service"}
 .HR .avatar { 
   position: absolute;
   top: 60%;
