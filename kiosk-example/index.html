@@ -26,6 +26,7 @@
   </div>
 
   <div class="service" x-show="page === 'service'">
+    <div class="top-picture">
     <h2>Choose Your Service</h2>
     <div class="row">
       <template x-for="service in services">
@@ -34,9 +35,12 @@
           <label x-text="service.name"></label>
         </a>
       </template>
+      
     </div>
     <button @click="page = 'home'" class="back">Back</button>
   </div>
+  </div>
+
 </body>
 
 </html>
