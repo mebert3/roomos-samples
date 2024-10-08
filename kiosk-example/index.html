@@ -18,19 +18,10 @@
   <div class="home-screen" x-show="page === 'home'">
     <div class="fullscreen">
   
-    <h1 style="color:#ffffff" vertical-align: middle>Bosch Kiosk</h1>
+    <h1 style="color:#ffffff">Bosch Kiosk</h1>
 
     <h2 style="color:#ffffff" @click="page = 'service'" class="touch-to-start">Touch to start</h2>
-    <div class="languages">
-      <template x-for="current in languages">
-        <div
-          class="language"
-          x-text="current"
-          @click="language = current"
-          :class="language === current && 'selected'">
-        </div>
-      </template>
-    </div> 
+
     </div>
   </div>
 
