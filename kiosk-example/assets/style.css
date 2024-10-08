@@ -75,7 +75,7 @@ h1, h2 {
     right: 0;
     bottom: 0;
     left: 0;
-    background
+    background:
         center / 400px url('./images/background1.png') no-repeat,
         radial-gradient(#e66465, #9198e5);
         }
