@@ -24,11 +24,11 @@ body {
   align-items: center;
   font-family: CiscoSansThin, arial;
   background-image: url('./images/Bosch_logo.png');
-  background-position: 20% 20%;
+  background-position: 0% 0%;
   background-repeat: no-repeat;
   background-size: 120px auto;
   background-color: #ffffff;
-  color: #012578;
+  color: #000000;
   font-size: 36px;
 }
 
