@@ -27,7 +27,7 @@
 
   <div class="service" x-show="page === 'service'">
     <div class="top-picture">
-    <h2>Choose Your Service</h2>
+    <h2 style="color:#000000">Choose Your Service</h2>
     <div class="row">
       <template x-for="service in services">
         <a class="service" x-bind:href="'sip:'+ service.url" :class="service.name">
