@@ -24,7 +24,7 @@ body {
   align-items: center;
   font-family: CiscoSansThin, arial;
   background-image: url('./images/Bosch_logo.png');
-  background-position: 5% 5%;
+  background-position: 95% 95%;
   background-repeat: no-repeat;
   background-size: 120px auto;
   background-color: #ffffff;
@@ -130,7 +130,11 @@ button {
 
 }
 
-.Clinic .avatar { background-image: url('./images/Avatar1.png'); }
+.Clinic .avatar { 
+  position: absolute;
+  left: 20%;
+  bottom: 200px;
+  background-image: url('./images/Avatar1.png'); }
 .IT .avatar { background-image: url('./images/Avatar2.png'); }
 .HR .avatar { background-image: url('./images/Avatar3.png'); }
 
