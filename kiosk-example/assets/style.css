@@ -131,12 +131,18 @@ button {
 }
 
 .Clinic .avatar { 
+  position: absolute;
+  top: 60%;
   left: 30%;
   background-image: url('./images/Avatar1.png'); }
 .IT .avatar { 
+  position: absolute;
+  top: 60%;
   left: 50%;
   background-image: url('./images/Avatar2.png'); }
 .HR .avatar { 
+  position: absolute;
+  top: 60%;
   left: 70%;
   background-image: url('./images/Avatar3.png'); }
 
