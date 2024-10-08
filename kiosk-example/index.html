@@ -14,10 +14,11 @@
 <body
   x-cloak
   x-data="{ page, services, language, languages } = $store.model"
+  background-image="assets/images/background1.png" background-repeat="no-repeat” background-size="cover”
 >
   
   <div class="home-screen" x-show="page === 'home'">
-  background-image="assets/images/background1.png" background-repeat="no-repeat” background-size="cover”
+  
     <h1>Bosch Kiosk</h1>
 
     <h2 @click="page = 'service'" class="touch-to-start">Touch to start</h2>
