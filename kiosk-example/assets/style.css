@@ -76,7 +76,7 @@ h1, h2 {
     bottom: 0;
     left: 0;
     background:
-        center / 10000px url('./images/background1.png') no-repeat;
+        center / 100% url('./images/background1.png') no-repeat;
         }
 </style>
 
