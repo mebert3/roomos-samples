@@ -64,6 +64,21 @@ h1, h2 {
   50% { transform: scale(1.07) }
   100% { transform: scale(1) }
 }
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+.background-image {
+            background-image: url('./images/background1.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+</style>
 
 .languages {
   display: none;
@@ -103,8 +118,8 @@ button {
 }
 
 .Clinic .avatar { background-image: url('./images/Avatar1.png'); }
-.IT Services .avatar { background-image: url('./images/Avatar2.jpg'); }
-.Credit .avatar { background-image: url('./images/Avatar3.png'); }
+.IT Services .avatar { background-image: url('./images/Avatar2.png'); }
+.HR Services .avatar { background-image: url('./images/Avatar3.png'); }
 
 .back {
   position: absolute;
