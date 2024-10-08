@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: 120px auto;
   background-color: #ffffff;
-  color: #999999;
+  color: #ffffff;
   font-size: 36px;
 }
 
@@ -64,11 +64,7 @@ h1, h2 {
   50% { transform: scale(1.07) }
   100% { transform: scale(1) }
 }
-<style>
-        * {
-            //margin: 0;
-            padding: 0;
-        }
+
 .fullscreen {
     position:fixed;
     top: 0;
@@ -88,7 +84,7 @@ h1, h2 {
     background:
         center / 100% url('./images/background.png') no-repeat;
         }
-</style>
+
 
 .languages {
   display: none;
@@ -106,12 +102,11 @@ h1, h2 {
 }
 
 .service {
-  
+  position: relative;
+  top:300px;
+  left:40%;
   margin: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  }
 
 button {
   background-color: transparent;
@@ -125,28 +120,16 @@ button {
   height: 150px;
   width: 150px;
   margin: 1em 0;
-  position: absolute;
+
   background-size: cover;
-  top: 60%;
 
 }
 
-.Clinic .avatar { 
-  position: absolute;
-  top: 60%;
-  left: 30%;
-  background-image: url('./images/Avatar1.png'); 
-  label: "Clinic"}
-.IT .avatar { 
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  background-image: url('./images/Avatar2.png'); 
-  name: "IT Service"}
-.HR .avatar { 
-  position: absolute;
-  top: 60%;
-  left: 70%;
+.Clinic .avatar {
+  background-image: url('./images/Avatar1.png'); }
+.IT .avatar {
+  background-image: url('./images/Avatar2.png'); }
+.HR .avatar {
   background-image: url('./images/Avatar3.png'); }
 
 .back {
