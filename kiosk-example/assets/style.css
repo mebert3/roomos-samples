@@ -102,7 +102,7 @@ button {
   background-size: cover;
 }
 
-.Loan .avatar { background-image: url('./images/avatar1.png'); }
+.clinic .avatar { background-image: url('./images/avatar1.png'); }
 .Advice .avatar { background-image: url('./images/avatar2.jpg'); }
 .Credit .avatar { background-image: url('./images/ahauge.png'); }
 
