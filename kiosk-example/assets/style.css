@@ -78,6 +78,16 @@ h1, h2 {
     background:
         center / 100% url('./images/background1.png') no-repeat;
         }
+
+.top-picture {
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:
+        center / 100% url('./images/background.png') no-repeat;
+        }
 </style>
 
 .languages {
