@@ -88,7 +88,7 @@ h1, h2 {
 }
 
 button {
-  background-color: transparent;
+  background-color: white;
   border: 0;
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 .Clinic .avatar { background-image: url('./images/Avatar1.png'); }
-.Advice .avatar { background-image: url('./images/Avatar2.jpg'); }
+.IT Services .avatar { background-image: url('./images/Avatar2.jpg'); }
 .Credit .avatar { background-image: url('./images/Avatar3.png'); }
 
 .back {
