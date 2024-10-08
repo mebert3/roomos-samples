@@ -16,19 +16,11 @@
   x-data="{ page, services, language, languages } = $store.model"
 >
   <div class="home-screen" x-show="page === 'home'">
-    <div class="fullscreen"></div>
+    
     <h1>Bosch Kiosk</h1>
 
     <h2 @click="page = 'service'" class="touch-to-start">Touch to start</h2>
-
-    <div class="languages">
-      <template x-for="current in languages">
-        <div
-          class="language"
-          x-text="current"
-          @click="language = current"
-          :class="language === current && 'selected'"
-        ></div>
+        <div class="fullscreen"></div>
       </template>
     </div>
   </div>
