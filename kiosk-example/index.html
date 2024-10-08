@@ -5,26 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kiosk</title>
-  <!-- <link rel="icon" type="image/png" href="assets/logo.png"> -->
+
   <link rel="stylesheet" href="assets/style.css"></link>
   <script src="src/main.js" defer></script>
   <script src="src/alpine.js" defer></script>
-  <!-- <script src="https://unpkg.com/alpinejs" defer></script> -->
 </head>
 <body
   x-cloak
   x-data="{ page, services, language, languages } = $store.model"
 >
-<!--  background-image="assets/images/background1.png" background-repeat="no-repeat” background-size="cover”-->
-  
+
   <div class="home-screen" x-show="page === 'home'">
-       <div class="fullscreen">
+    <div class="fullscreen">
   
     <h1 style="color:#ffffff">Bosch Kiosk</h1>
 
     <h2 style="color:#ffffff" @click="page = 'service'" class="touch-to-start">Touch to start</h2>
+    <div class="languages">
+      <template x-for="current in languages">
+        <div
+          class="language"
+          x-text="current"
+          @click="language = current"
+          :class="language === current && 'selected'">
+        </div>
       </template>
-        </div> 
+    </div> 
     </div>
   </div>
 
