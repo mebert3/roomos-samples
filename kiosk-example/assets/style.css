@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: 120px auto;
   background-color: #ffffff;
-  color: #000000;
+  color: #111111;
   font-size: 36px;
 }
 
@@ -103,7 +103,7 @@ h1, h2 {
 }
 
 button {
-  background-color: white;
+  background-color: transparent;
   border: 0;
 }
 
