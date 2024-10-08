@@ -3,12 +3,9 @@ var xapi;
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 
-const PIN = "1337";
 let page = "home";
 let timer = 0;
 let lang = "en";
-
-const TimeBtwVideo = 30;
 
 const cache = [];
 function preloadImage(url) {
@@ -50,21 +47,10 @@ function notify(msg) {
   // timer = setTimeout(() => a.style.display = 'none', 2000);
 }
 
-function playVideo() {
-  if (page !== "home") return;
-  const vid = $("#mainvideo");
-  vid.style.display = "block";
-  vid.currentTime = 0;
-  vid.play();
-  vid.onended = () => {
-    vid.style.display = "none";
-    setRandomPoster();
-  };
-}
 
 function setRandomPoster() {
-  const number = Math.floor(Math.random() * 5);
-  $(".poster").style.backgroundImage = `url('https://cdn.glitch.global/9ea3304c-e203-4632-87b7-4c542ada1c18/poster${number}.jpeg?v=1725892955634')`;
+//  const number = Math.floor(Math.random() * 5);
+  $(".poster").style.backgroundImage = `url('images/background1.png')`;
 }
 
 function showPage(newPage) {
@@ -86,16 +72,6 @@ function showSelfview(show) {
   }
 }
 
-function disableKiosk() {
-  console.log("disable kiosk");
-  location.href = "cisco-room-action:disable-kiosk";
-}
-
-function askPin() {
-  const pin = prompt("To quit kiosk mode, enter pin code:");
-  if (pin === PIN) disableKiosk();
-  else if (pin) alert("Wrong pin");
-}
 
 /**
 function translate(lang) {
@@ -141,7 +117,6 @@ window.onload = () => {
   $(".details").onclick = onClick;
 
   setTimeout(preloadImages, 100); // dont block initial page load
-  setInterval(playVideo, TimeBtwVideo * 1000);
   setRandomPoster();
   // temp
   // selectItem('item1');
